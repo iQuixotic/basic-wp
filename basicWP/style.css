@@ -1,0 +1,44 @@
+/* 
+    Theme Name: Simple
+    Author: iQuixotic
+    Author URI: www.google.com
+    description: Very simple wordpress theme
+    Version: 1.0
+*/
+
+body {
+    font-family: Arial;
+    font-size: 15px;
+    color: #333;
+    background: #f4f4f4;
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(10, 39, 10);
+    padding: 20px 10px;   
+}
+
+footer {
+    background: rgb(10, 39, 10);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.main {
+    margin: 15px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 10%;
+    overflow: auto;
+}

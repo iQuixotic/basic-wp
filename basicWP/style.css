@@ -6,6 +6,7 @@
     Version: 1.0
 */
 
+/* Base */
 body {
     font-family: Arial;
     font-size: 15px;
@@ -33,6 +34,19 @@ header h1 {
     padding: 0 0 10px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Meta */
+.meta {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background: #141414;
+}
+
+/* Staging */
 .main {
     margin: 15px 0;
 }
@@ -41,4 +55,25 @@ header h1 {
     width: 80%;
     margin: 0 10%;
     overflow: auto;
+}
+
+/* Posts */
+article.post {
+    border-bottom: 1px #ccc solid;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+article.post a.button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Images */
+.post-thumbnail img{
+    width: 100%;
+    height: auto;
 }

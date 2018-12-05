@@ -34,9 +34,33 @@ header h1 {
     padding: 0 0 10px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Staging */
+.main {
+    margin: 15px 0;
+    float: left;
+    width: 68%;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.clr {
+    clear: both;
 }
 
 /* Meta */
@@ -46,16 +70,49 @@ a {
     background: #141414;
 }
 
-/* Staging */
-.main {
-    margin: 15px 0;
+/* Navigation */
+.main-nav {
+    font-size: 14px;
+    background: black;
+    color: white;
+    padding: 0 0 10px;
 }
 
-.container {
-    width: 80%;
-    margin: 0 10%;
-    overflow: auto;
+.main-nav li {
+    list-style: none;
+    float: left;
+    padding-right: 15px;
 }
+
+.main-nav a {
+    color: rgb(242, 242, 253);
+}
+.main-nav a:hover {
+    color: rgb(152, 152, 243);
+}
+
+.sidebar {
+    float: right;
+    width: 28%;
+}
+
+.side-widget {
+    border: 1px #ccc solid;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.side-widget li {
+    list-style: none;
+    line-height: 2.2em;
+    border-bottom: dotted 1px #ccc;
+}
+
+.side-widget a {
+    text-decoration: none;
+}
+
 
 /* Posts */
 article.post {

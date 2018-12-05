@@ -70,6 +70,10 @@ a {
     background: #141414;
 }
 
+.meta a {
+    color: white;
+}
+
 /* Navigation */
 .main-nav {
     font-size: 14px;
